@@ -40,7 +40,7 @@
 | 收录 | [mc.mcpenav.top](https://mc.mcpenav.top/) | MCPEMAP 服务器收录站，0.13～1.1，人工审核、免费收录。列表与在线数据以这里为准 |
 | 资料 | [pm.mcpenav.top](https://pm.mcpenav.top/) | 0.14 便携版核心站，版本协议矩阵、核心对照、配置与排错。开服包不预置演示条目 |
 
-页面文案以 `index.html` 为准。猫公社、域名分发站那几个没放进这页，保持现在线上这三张卡就好。
+页面文案以 `index.html` 为准
 
 ## :label: 标签
 
