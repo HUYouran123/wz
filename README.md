@@ -5,7 +5,6 @@
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2f5d8a?logo=github&logoColor=white)
 ![Static](https://img.shields.io/badge/site-static%20HTML-orange?logo=html5&logoColor=white)
 ![License](https://img.shields.io/badge/license-not%20set-lightgrey)
-![Deploy](https://github.com/HUYouran123/wz/actions/workflows/DEPLOY_FILE.yml/badge.svg)
 
 [:wave: 在线访问](https://huyouran123.github.io/wz/) · [:memo: 源码](https://github.com/HUYouran123/wz) · [:books: 个人主页 README](https://github.com/HUYouran123/HUYouran123)
 
@@ -48,6 +47,3 @@
 `Minecraft PE` · `MCPE 0.14` · `PHP` · `静态站点` · `Cloudflare Pages` · `服务器收录` · `开源维护` · `版本协议矩阵`
 
 标签是范围说明，不是技能认证。要加就往 `index.html` 的 `.tags` 里塞一个 `<span>`，样式会自动排。
-
-## :package: 文件
-
