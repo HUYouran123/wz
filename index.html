@@ -1,90 +1,115 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HUYouran · 个人页</title>
-<meta name="description" content="在维护几个和 Minecraft 便携版 0.14 有关的小站。">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HUYouran 的个人页</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="wrap">
+<div class="container">
 
-<header class="hd">
-  <p class="eyebrow"><a href="https://github.com/HUYouran123">github.com/HUYouran123</a></p>
-  <h1>HUYouran</h1>
-  <p class="sub">在维护几个和 Minecraft 便携版 0.14 有关的小站</p>
-  <nav class="nav">
-    <a href="#about">关于</a>
-    <a href="#sites">站点</a>
-    <a href="#github">GitHub</a>
-    <a href="#notes">说明</a>
-  </nav>
+[关于] [站点] [仓库] [协作] [标签] [计数器] [联系]
+
+<header>
+<p class="eyebrow">一行行敲的，没用生成器，有几处对不齐，先这样</p>
+<h1>HUYouran</h1>
+<p class="subtitle">github.com/HUYouran123</p>
 </header>
 
 <main>
 
 <section id="about">
-  <h2>我是谁</h2>
-  <p>站是自己搭的，更新不快，但一直在。主要做 Minecraft 便携版的导航、收录和开服资料整理，也顺手维护几个玩家组织的页面</p>
-  <p>不是官方，不运营任何被收录的服务器，也不代收涉及金钱的东西</p>
+<h2>01 关于</h2>
+<p>站是自己搭的，更新不快，但一直在。主要做 Minecraft 携带版 0.14 这一段的导航、收录和开服资料整理。</p>
+<p>不是官方，不运营任何被收录的服务器，不代收账号密码，也不代收涉及金钱的东西。收录只代表信息被登记，不代表推荐或认证。</p>
+<p>现在在做的三件事：</p>
+<ol>
+<li>把 mcpenav.top 的老导航页面慢慢整理，有些链接已经失效了，在一点点修</li>
+<li>收录站 mc.mcpenav.top 的日常审核，每天看几份提交</li>
+<li>核心站 pm.mcpenav.top 的版本矩阵和协议号口径，这块最费脑子</li>
+</ol>
+</section>
+
+<section id="counter">
+<h2>访客计数</h2>
+<p class="muted">每次打开页面数字 +1，纯图片计数器</p>
+<p class="counter-wrap">
+<img
+class="counter-img"
+src="https://count.himiku.com/@%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E5%99%A8?theme=booru-lewd&padding=7&offset=0&align=top&scale=2&pixelated=1&darkmode=auto"
+alt="访问计数器"
+width="320"
+loading="lazy"
+>
+</p>
+<p class="muted">同名计数器会被别人猜到也命中，所以只当展示数字，不当严格访客统计。</p>
 </section>
 
 <section id="sites">
-  <h2>在维护的站</h2>
-  <ul class="sites">
-    <li>
-      <span class="tag">导航</span>
-      <a href="https://mcpenav.top/">mcpenav.top</a>
-      <p>最早的 MCPE 0.14 综合导航，服务器入口、客户端下载。Cloudflare Pages 托管，更新较慢</p>
-    </li>
-    <li>
-      <span class="tag">收录</span>
-      <a href="https://mc.mcpenav.top/">mc.mcpenav.top</a>
-      <p>MCPEMAP 服务器收录站，0.13～1.1，人工审核、免费收录。列表与在线数据以这里为准</p>
-    </li>
-    <li>
-      <span class="tag">资料</span>
-      <a href="https://pm.mcpenav.top/">pm.mcpenav.top</a>
-      <p>0.14 便携版核心站，版本协议矩阵、核心对照、配置与排错。开服包不预置演示条目</p>
-    </li>
-  </ul>
+<h2>02 站点</h2>
+
+<div class="card">
+<span class="tag tag-nav">导航</span>
+<h3><a href="https://mcpenav.top/">mcpenav.top</a></h3>
+<p>最早的 MCPE 0.14 综合导航：服务器入口、原版 / 流量端 / Bingo 客户端下载、友情链接。</p>
+<p class="muted">Cloudflare Pages 托管，更新较慢，老页面，别拿它当收录站。</p>
+</div>
+
+<div class="card">
+<span class="tag tag-map">收录</span>
+<h3><a href="https://mc.mcpenav.top/">mc.mcpenav.top</a></h3>
+<p>MCPEMAP v2.0.0，0.13～1.1，人工审核、免费收录。按版本 / 类型 / 状态 / 印象标签筛选。</p>
+<p class="muted">列表、排行、统计与在线数据以本站为准。</p>
+</div>
+
+<div class="card">
+<span class="tag tag-doc">资料</span>
+<h3><a href="https://pm.mcpenav.top/">pm.mcpenav.top</a></h3>
+<p>0.14 便携版核心站：版本协议矩阵、服务端核心对照、配置字段、报错排查、运维手册、UDP 在线探测。</p>
+<p class="muted">开服包不预置演示条目，提交审核通过才出现。</p>
+</div>
+
+<p class="muted">找服 → mc.mcpenav.top ｜ 下客户端 → mcpenav.top ｜ 自己开服 → pm.mcpenav.top</p>
 </section>
 
-<section id="github">
-  <h2>GitHub</h2>
-  <p>这一页和 <a href="https://github.com/HUYouran123">github.com/HUYouran123</a> 个人主页的 README 是同一套内容，那边用 Markdown 写，这边是能直接访问的网页</p>
-  <ul class="plain">
-    <li><a href="https://github.com/FirgtZhong/mcpenav">FirgtZhong/mcpenav</a> — 主站源码，有简中 / 繁中 / English / Русский 四份 README</li>
-    <li><a href="https://github.com/HUYouran123/HUYouran123">HUYouran123/HUYouran123</a> — 个人主页 README 仓库</li>
-  </ul>
-  <p class="collab">一起做的人：<a href="https://github.com/FirgtZhong">@FirgtZhong</a> 域名提供<a href="https://github.com/ibukifuuko-arch">@ibukifuuko-arch</a> 技术支持。</p>
+<section id="repos">
+<h2>03 仓库</h2>
+<table>
+<tr><td><a href="https://github.com/FirgtZhong/mcpenav">FirgtZhong/mcpenav</a></td><td>主站源码，HTML / CSS / JS，简中 · 繁中 · English · Русский 四份 README</td></tr>
+<tr><td><a href="https://github.com/pm014/0.14-portable-cores">pm014/0.14-portable-cores</a></td><td>核心站源码，PHP 7.4 / 8.x + JSON 存储，无数据库</td></tr>
+<tr><td><a href="https://huyouran123.github.io/wz/">huyouran123.github.io/wz</a></td><td>这份个人简介的网页版，纯 HTML + CSS</td></tr>
+<tr><td><a href="https://github.com/HUYouran123">HUYouran123</a></td><td>个人主页，这段 README 就渲染在这里</td></tr>
+<tr><td><a href="https://github.com/xyc-launcher/Launcher">xyc-launcher/Launcher</a></td><td>184KB 极简 MC 启动器，P2P 局域网分发</td></tr>
+</table>
+</section>
+
+<section id="collab">
+<h2>04 协作</h2>
+<p><img src="https://github.com/FirgtZhong.png" width="18" align="top"> <a href="https://github.com/FirgtZhong">@FirgtZhong</a> — 域名提供与稳定性保障</p>
+<p><img src="https://github.com/ibukifuuko-arch.png" width="18" align="top"> <a href="https://github.com/ibukifuuko-arch">@ibukifuuko-arch</a> — 技术支持，不定时维护</p>
 </section>
 
 <section id="tags">
-  <h2>标签</h2>
-  <p class="tags">
-    <span>Minecraft PE</span><span>MCPE 0.14</span><span>PHP</span>
-    <span>静态站点</span><span>Cloudflare Pages</span><span>服务器收录</span>
-    <span>开源维护</span><span>版本协议矩阵</span>
-  </p>
+<h2>05 标签</h2>
+<p class="tags">
+<span>Minecraft PE</span><span>MCPE 0.14</span><span>PHP</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Java</span><span>Cloudflare Pages</span><span>GitHub Pages</span><span>GitHub Actions</span><span>JSON 存储</span><span>UDP / RakNet</span><span>版本协议矩阵</span><span>服务器收录</span><span>静态站点</span><span>开源维护</span>
+</p>
+<p class="muted">标签是范围说明，不是技能认证</p>
 </section>
 
-<section id="notes">
-  <h2>几句说明</h2>
-  <ul class="plain">
-    <li>收录站只做信息收录与跳转，收录不代表推荐或认证</li>
-    <li>在线状态来自探测节点定时探测，只反映探测那一刻</li>
-    <li>这些都是非官方项目，与 Mojang Studios / Microsoft 无关 Minecraft 为其商标</li>
-  </ul>
+<section id="contact">
+<h2>06 联系</h2>
+<p>收录申请 / 修改信息 / 申请下架 → <a href="mailto:admin@hucx.cn">admin@hucx.cn</a></p>
+<p>技术支持 → <a href="mailto:ibuki_fuko@hucx.cn">ibuki_fuko@hucx.cn</a></p>
+<p class="muted">只做信息收录，不运营被收录的服务器，收录不代表推荐。台数、票数、在线数据一律去站上看，不写死。</p>
 </section>
 
 </main>
 
 <footer>
-  <p>© 2025–2026 FirgtZhong · <a href="https://github.com/FirgtZhong">GitHub</a></p>
-  <p class="fine">非官方项目，与 Mojang Studios / Microsoft 无关；Minecraft 为 Mojang Studios 的商标</p>
+<p class="muted">Minecraft 为 Mojang Studios 商标，与 Mojang Studios / Microsoft 无关联</p>
 </footer>
 
 </div>
